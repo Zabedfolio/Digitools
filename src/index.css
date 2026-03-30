@@ -5,3 +5,9 @@ body {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
 }
+
+.tab {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
