@@ -3,6 +3,7 @@ import './App.css'
 import Cart from './components/Cart';
 import Models from './components/Models';
 import Header from './components/Header';
+import { ToastContainer } from 'react-toastify'
 
 const getModels = async () => {
   const res = await fetch("/data.json")
@@ -25,6 +26,8 @@ function App() {
       {selectType === "cart" && (
         <Cart carts={carts} setCarts={setCarts} />
       )}
+
+      <ToastContainer></ToastContainer>
     </>
   )
 }

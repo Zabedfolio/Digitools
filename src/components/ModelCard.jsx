@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const tagStyles = {
   "Best Seller": "bg-[#FEF3C6] text-[#BB4D00]",
@@ -13,12 +13,12 @@ const ModelCard = ({ model, carts, setCarts }) => {
   const handleSubscription = () => {
     const isFound = carts.find(item => item.id === model.id);
     if (isFound) {
-    //   toast.error("Already in cart!");
+      toast.error("Already in cart!");
       return;
     }
     setCarts([...carts, model]);
     setIsBuy(true);
-    // toast.success("Added to cart!");
+    toast.success("Added to cart!");
   }
 
   return (
