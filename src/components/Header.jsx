@@ -1,4 +1,7 @@
 const Header = ({ selectType, setSelectType, cartCount }) => {
+
+  // console.log({cartCount})
+
   return (
     <div className='pt-30 w-10/12 mx-auto'>
       <div className='text-center'>
@@ -24,10 +27,15 @@ const Header = ({ selectType, setSelectType, cartCount }) => {
               : 'text-[#627382]'
           }`}>
           Cart ({cartCount})
+          
         </button>
+        
       </div>
+      
     </div>
   )
+
+  
 }
 
 export default Header
