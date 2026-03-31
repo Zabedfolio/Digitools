@@ -6,6 +6,7 @@ import Header from './components/Header';
 import { ToastContainer } from 'react-toastify'
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
+import Rating from './components/Rating';
 
 const getModels = async () => {
   const res = await fetch("/data.json")
@@ -24,6 +25,8 @@ function App() {
       <Navbar carts={carts} setCarts={setCarts} cartCount={carts.length}></Navbar>
 
       <Banner></Banner>
+
+      <Rating></Rating>
 
       <Header selectType={selectType} setSelectType={setSelectType} cartCount={carts.length} />
 
