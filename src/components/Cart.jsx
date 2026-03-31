@@ -18,7 +18,7 @@ const Cart = ({ carts, setCarts }) => {
 
     if (carts.length === 0) {
         return (
-            <div className='text-center py-30 text-[#627382]'>
+            <div className='w-10/12 mx-auto mt-10 mb-40 py-10 text-center text-[#627382] border border-[#F2F2F2] rounded-2xl'>
                 <p className='text-2xl font-bold'>Your cart is empty</p>
             </div>
         )

@@ -17,8 +17,8 @@ const Navbar = ({ cartCount }) => {
                 </div>
                 <div className='flex items-center space-x-4'>
                     <div className="indicator">
-                        <span className="indicator-item badge badge-secondary">{cartCount}</span>
-                        <button className="btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        <span className="indicator-item badge badge-primary">{cartCount}</span>
+                        <button className="btn rounded-full"><i class="fa-solid fa-cart-shopping"></i></button>
                     </div>
 
                     <p>Login</p>
