@@ -10,6 +10,7 @@ import Rating from './components/Rating';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
 import Ready from './components/Ready';
+import Footer from './components/Footer';
 
 const getModels = async () => {
   const res = await fetch("/data.json")
@@ -45,6 +46,8 @@ function App() {
       <Pricing></Pricing>
 
       <Ready></Ready>
+
+      <Footer></Footer>
 
       <ToastContainer></ToastContainer>
     </>
