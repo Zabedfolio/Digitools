@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className='py-20'>
+        <div className='py-30'>
             <div className='w-10/12 mx-auto'>
 
                 {/* Header */}

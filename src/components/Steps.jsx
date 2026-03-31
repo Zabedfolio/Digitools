@@ -5,7 +5,7 @@ import packages from "../assets/package.png"
 
 const Steps = () => {
     return (
-        <div className='bg-[#F4F6FA] py-20'>
+        <div className='bg-[#F4F6FA] py-30'>
             <div className='w-10/12 mx-auto'>
 
                 {/* Header */}
